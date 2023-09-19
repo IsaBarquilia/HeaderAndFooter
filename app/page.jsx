@@ -1,8 +1,13 @@
-import React from 'react'
-import Styles from "./page.module.css"
+
+import Image from 'next/image'
+import Styles from './page.module.css'
+import Link from 'next/link'
+import Footer from './components/footer/Footer'
+
 
 function PaginaInicial() {
   return (
+
     <main className={Styles.all}>
       <div >
         <div className={Styles.pai}>
@@ -50,7 +55,12 @@ function PaginaInicial() {
         </div>
 </div>
       </div>
+      <Footer/>
     </main>
+
+
+  
+
   )
 }
 
